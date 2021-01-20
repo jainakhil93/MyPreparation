@@ -1,0 +1,93 @@
+
+.notFoundContainer {
+    margin-left:10px;
+}
+
+.notFound {
+    color: #333333;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 55%;
+}
+
+.textElement {
+    font-family: 'Space Mono';
+    font-size: 50px;
+    line-height: 70px;
+    color: #333333;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    width: 42%;
+    font-weight: bold;
+}
+
+.unavailableText {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color:#4f4f4f;
+    margin-bottom:5%;
+    width:36%;
+}
+
+.homePageButtonContainer {
+    width: 20%;
+    background: #333333;
+}
+
+.homePageButton {
+    font-family: 'Space Mono';
+    font-weight: bold;
+    color: #FFFFFF;
+    padding:10px 30px 10px 30px;
+}
+
+.image {
+    flex-basis:35%;
+    margin-right: 50px;
+    width: 40%;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction:row;
+    margin:3%;
+    width: 95%;
+    height: 100%;
+}
+
+.imageElement {
+    width: 100%;
+    margin-right: 6%;
+}
+
+@media (max-width: 800px) {
+    .homePageButtonContainer {
+        width:65%;
+    }
+}
+
+@media (max-width: 800px) {
+    .imageContainer {
+        flex-direction:column;
+    }
+    .image, .textContainer {
+        width:100%;
+    }
+    .textElement {
+        width:100%
+    }
+    .unavailableText {
+        width:75%
+    }
+}
