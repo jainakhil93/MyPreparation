@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="http://bitter-destruction.surge.sh/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/jainakhil93/MyPreparation/tree/main/Portfolio/404-not-found-master#overview">
       Solution
     </a>
     <span> | </span>
@@ -40,10 +40,10 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- Where can I see your demo? You can see my demo at http://bitter-destruction.surge.sh/
+- What was your experience? Its been a long time since I wrote HTML and CSS but I want to be a frontend developer and there is nothing better than getting your hands dirty. Its been a fun experience as I learnt about best practices and new layouts that are used now a days for modern web pages.
+- What have you learned/improved? I have learned how to make the layout from boht block display and flexbox. I have also learnt how to make the page responsive by using media queries
+- Your widom? :) Start slow and work your way up with new challenges!
 
 ### Built With
 
