@@ -66,4 +66,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/jainakhil93)
+- GitHub [Akhil Jain](https://github.com/jainakhil93)
