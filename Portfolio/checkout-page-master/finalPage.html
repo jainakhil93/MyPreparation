@@ -1,0 +1,102 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Checkout Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <div class="checkoutPage">
+        <div class="heading">
+            <h2 class="heading__element"> Checkout </h2>
+        </div>
+        <div class="info">
+            <div>
+                <div class="info__heading"> Contact Information </div>
+                <form>
+                    <div class="info__heading__label">
+                        <label> E-mail </label> <br>
+                    </div>
+                    <div class="info__heading__inputButton">
+                        <i class="material-icons">mail</i>
+                        <input class="info__heading__inputButton__label" type="email" placeholder="Enter your email..">
+                        
+                    </div>
+                    <div class="info__heading__label">
+                        <label> Phone </label> <br>
+                    </div>
+                    <div class="info__heading__inputButton">
+                        <i class="material-icons">call</i>
+                        <input class="info__heading__inputButton__label" type="text" list="test" 
+                        pattern="^\({0,1}((0|\+61)(2|4|3|7|8)){0,1}\){0,1}( |-){0,1}[0-9]{2}( |-){0,1}[0-9]{2}( |-){0,1}[0-9]{1}( |-){0,1}[0-9]{3}$"
+                        placeholder="Enter your phone..">
+                    </div>
+                </form>
+            </div>
+            <div class="addressInfo">
+                <div class="info__heading"> Shipping address </div>
+                <form>
+                    <div class="info__heading__label">
+                        <label> Full Name </label> <br>
+                    </div>
+                    <div class="info__heading__inputButton">
+                        <i class="material-icons">account_circle</i>
+                        <input class="info__heading__inputButton__label" type="text" placeholder="Rodney Cotton">
+                        
+                    </div>
+                    <div class="info__heading__label">
+                        <label> Address </label> <br>
+                    </div>
+                    <div class="info__heading__inputButton">
+                        <i class="material-icons">home</i>
+                        <input class="info__heading__inputButton__label" type="text" placeholder="Your Address..">
+                    </div>
+                    <div class="info__heading__label">
+                        <label> City </label> <br>
+                    </div>
+                    <div class="info__heading__inputButton">
+                        <i class="material-icons">business</i>
+                        <input class="info__heading__inputButton__label" type="text" placeholder="Your City..">
+                    </div>
+                    <div class="info__heading__label">
+                        <label> Country </label> <br>
+                    </div>
+                    <div class="info__heading__inputButton">
+                        <i class="material-icons">business</i>
+                        <input class="info__heading__inputButton__label" type="text" placeholder="Your Country..">
+                    </div>
+                    <div class="info__heading__label">
+                        <label> Postal Code </label> <br>
+                    </div>
+                    <div class="info__heading__inputButton">
+                        <i class="material-icons">business</i>
+                        <input class="info__heading__inputButton__label" type="number" placeholder="Your Postal Code..">
+                    </div>
+                    <div>
+                        <input class="info__saveInfo" type="checkbox">
+                        <label class="info__saveInfoText">Save this information for next time </label>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+        <div class="shippingAddressContainer">
+
+        </div>
+        <div class="checkoutCartContainer">
+
+        </div>
+        <div class="continueButtonContainer">
+
+        </div>
+    </div>
+</body>
+</html>

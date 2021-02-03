@@ -1,0 +1,74 @@
+.heading {
+    margin-left:2%;
+}
+
+.heading__element {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #4E5150;
+}
+
+.info {
+    margin-left:2%;
+}
+
+.info__heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 1%;
+}
+
+.info__heading__label {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 12px;
+    color: #4F4F4F;
+    margin-bottom: 0.5%;
+}
+
+.info__heading__inputButton {
+    margin-bottom: 1%;
+}
+
+input[type=email], input[type=text], input[type=number] {
+    width: 465px;
+    height: 56px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding-left: 2%;
+}
+
+.info__heading__inputButton i {
+    position:absolute;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.addressInfo {
+    margin-top:3%;
+}
+
+.info__heading__inputButton__labelCountry {
+    width: 465px;
+    height: 56px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding-left: 2%;
+}
+
+.info__saveInfo {
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.info__saveInfoText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+

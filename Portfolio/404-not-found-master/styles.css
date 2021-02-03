@@ -43,6 +43,7 @@
 .homePageButtonContainer {
     width: 20%;
     background: #333333;
+    text-align: center;
 }
 
 .homePageButton {
